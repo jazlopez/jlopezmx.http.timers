@@ -2,9 +2,16 @@
   "name": "d3-timeline",
   "version": "0.0.5",
   "main": "src/d3-timeline.js",
-  "repository": "https://github.com/jiahuang/d3-timeline.git",
-  "license" : "MIT",
+  "scripts": {
+    "test": "echo \"no test found \"",
+    "start": "node main.js"
+  },
+  "repository": "https://github.com/jazlopez/d3-timeline.git",
+  "license": "MIT",
   "dependencies": {
     "d3": ">=3.4.3"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
   }
 }
